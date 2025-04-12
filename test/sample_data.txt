@@ -1,0 +1,4 @@
+This is a sample plain text file.
+It contains several lines of text.
+This text file is used to test the Local LLM Analyst's text analysis capabilities.
+Feel free to add more content here for further testing.
