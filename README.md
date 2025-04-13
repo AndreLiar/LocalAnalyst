@@ -1,6 +1,4 @@
-Sure! Here's a clean, copy-paste-ready version of your README section, properly structured and formatted:
 
----
 
 # 🧠 Local LLM Analyst
 
@@ -13,6 +11,7 @@ A local, privacy-focused tool for multimodal data analysis using LLMs via Ollama
 - Python 3.8+
 - [Ollama](https://ollama.ai)
 - Models: `llama3`, `llava` (for image analysis)
+- streamlit
 
 ---
 
