@@ -27,7 +27,7 @@ Models: llama3, llava
    ollama pull llava   # For image analysis (multimodal)
 
 3. Clone this repository
-   ```bash
+```bash
 git clone https://github.com/<your-username>/LocalLlamaAnalyst.git
 cd LocalLlamaAnalyst
 4. Install Python dependencies
