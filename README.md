@@ -27,16 +27,16 @@ Models: llama3, llava
    ollama pull llava   # For image analysis (multimodal)
 
 3. Clone this repository
-bash
+   ```bash
 git clone https://github.com/<your-username>/LocalLlamaAnalyst.git
 cd LocalLlamaAnalyst
 4. Install Python dependencies
 Make sure you're in a virtual environment:
 
-bash
+```bash
 pip install -r requirements.txt
 5. Run the application
-bash
+```bash
 streamlit run app.py
 Then visit http://localhost:8501 in your browser.
 
