@@ -1,14 +1,22 @@
-# Local LLM Analyst
+Sure! Here's a clean, copy-paste-ready version of your README section, properly structured and formatted:
+
+---
+
+# 🧠 Local LLM Analyst
 
 A local, privacy-focused tool for multimodal data analysis using LLMs via Ollama.
 
+---
+
 ## 📦 Requirements
-Python 3.8+
 
-Ollama
+- Python 3.8+
+- [Ollama](https://ollama.ai)
+- Models: `llama3`, `llava` (for image analysis)
 
-Models: llama3, llava
-## Features
+---
+
+## ✨ Features
 
 - Analyze text files (CSV, JSON, TXT)
 - Basic image analysis (requires multimodal model)
@@ -16,42 +24,56 @@ Models: llama3, llava
 - No API keys required
 - Simple, intuitive interface
 
-## Installation
+---
 
-1. **Install Ollama**:
-   - Download and install Ollama from [ollama.ai](https://ollama.ai/)
+## 🚀 Installation
 
-2. **Download Models** (run in terminal):
-   ```bash
-   ollama pull llama3  # For text analysis
-   ollama pull llava   # For image analysis (multimodal)
+### 1. Install Ollama  
+Download and install Ollama from [ollama.ai](https://ollama.ai/)
 
-3. Clone this repository
+### 2. Download Required Models  
+Open a terminal and run:
+
 ```bash
-git clone https://github.com/<your-username>/LocalLlamaAnalyst.git
+ollama pull llama3   # For text analysis  
+ollama pull llava    # For image analysis (multimodal)
+```
+
+### 3. Clone the Repository
+
+```bash
+git clone https://github.com/AndreLiar/LocalAnalyst
 cd LocalLlamaAnalyst
-4. Install Python dependencies
-Make sure you're in a virtual environment:
+```
+
+### 4. Install Python Dependencies  
+Make sure you're in a virtual environment, then run:
 
 ```bash
 pip install -r requirements.txt
-5. Run the application
+```
+
+### 5. Run the App
+
 ```bash
 streamlit run app.py
-Then visit http://localhost:8501 in your browser.
+```
 
-💡 Example Prompts
-📄 For CSV / JSON / Text:
-"Summarize this dataset"
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
-"Find the average age by city"
+---
 
-"What are the main insights from this data?"
+## 💡 Example Prompts
 
-🖼️ For Images (with llava):
-"Describe what is shown in this image"
+### 📄 For CSV / JSON / Text Files:
+- `"Summarize this dataset"`
+- `"Find the average age by city"`
+- `"What are the main insights from this data?"`
 
-"List the objects and context"
+### 🖼️ For Images (with `llava`):
+- `"Describe what is shown in this image"`
+- `"List the objects and context"`
+- `"What does this image represent?"`
 
-"What does this image represent?"
+---
 
