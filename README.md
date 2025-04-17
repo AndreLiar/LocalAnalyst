@@ -68,6 +68,8 @@ Make sure you're in a virtual environment, then run:
 ```bash
 pip install -r requirements.txt
 ```
+###NB: in the repo there is a folder test that contains different data type format supported you can use it to explore the tools or load your own data
+
 
 ### 5. Run the App
 
