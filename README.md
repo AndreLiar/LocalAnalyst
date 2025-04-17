@@ -34,11 +34,12 @@ Download Ollama from [ollama.ai/download](https://ollama.ai/download) and follow
 - **macOS**:
   ```bash
   brew install ollama
+  ```
 
  - Linux (Ubuntu/Debian):
   ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-
+```
 
 -Windows: Use the Windows installer from the official site:
 
@@ -49,6 +50,8 @@ Open a terminal and run:
 ollama pull llama3   # For text analysis  
 ollama pull llava    # For image analysis (multimodal)
 ```
+
+- run the model:
 ```bash
 ollama run llama3
 ```
