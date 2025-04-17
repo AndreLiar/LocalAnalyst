@@ -27,8 +27,20 @@ A local, privacy-focused tool for multimodal data analysis using LLMs via Ollama
 
 ## 🚀 Installation
 
-### 1. Install Ollama  
-Download and install Ollama from [ollama.ai](https://ollama.ai/)
+### 1. Install Ollama
+
+Download Ollama from [ollama.ai/download](https://ollama.ai/download) and follow the instructions for your OS:
+
+- **macOS**:
+  ```bash
+  brew install ollama
+
+ - Linux (Ubuntu/Debian):
+  ```bash
+curl -fsSL https://ollama.com/install.sh | sh
+
+
+-Windows: Use the Windows installer from the official site:
 
 ### 2. Download Required Models  
 Open a terminal and run:
@@ -37,7 +49,9 @@ Open a terminal and run:
 ollama pull llama3   # For text analysis  
 ollama pull llava    # For image analysis (multimodal)
 ```
-
+```bash
+ollama run llama3
+```
 ### 3. Clone the Repository
 
 ```bash
