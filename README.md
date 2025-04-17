@@ -64,15 +64,67 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## 💡 Example Prompts
 
-### 📄 For CSV / JSON / Text Files:
-- `"Summarize this dataset"`
-- `"Find the average age by city"`
-- `"What are the main insights from this data?"`
+📊 For Data Files (CSV, JSON, TXT)
+Exploration / Overview
 
-### 🖼️ For Images (with `llava`):
-- `"Describe what is shown in this image"`
-- `"List the objects and context"`
-- `"What does this image represent?"`
+"Summarize this data."
 
----
+"What are the key columns and how many records are there?"
+
+"What is the age range in this dataset?"
+
+"List the unique cities present in the data."
+
+Statistical Analysis
+
+"What is the average age of individuals?"
+
+"Count the number of people per city."
+
+"Find the oldest and youngest individuals."
+
+"Calculate the standard deviation of the age column."
+
+Insights / Trends
+
+"Identify any trends or patterns in this dataset."
+
+"What insights can we draw from this data?"
+
+"Are there any outliers in the age column?"
+
+"Suggest 3 key takeaways based on this data."
+
+Data Cleaning Checks
+
+"Are there any missing or inconsistent values?"
+
+"Which columns have the most repeated values?"
+
+"Is this data normalized or clean?"
+
+🖼️ For Images (using llava)
+Basic Understanding
+
+"Describe the contents of this image."
+
+"What is happening in this picture?"
+
+"List all visible objects."
+
+Contextual Analysis
+
+"What could be the context or purpose of this image?"
+
+"What does this image represent?"
+
+"What emotions or themes are suggested?"
+
+Specific Use Cases
+
+"Is this chart going up or down?"
+
+"What kind of business chart is this?"
+
+"Can you extract insights from this visual?"
 
